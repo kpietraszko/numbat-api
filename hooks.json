@@ -12,6 +12,13 @@
         "name": "e"
       }
     ],
-    "include-command-output-in-response": true
+    "include-command-output-in-response": true, 
+    "response-headers":
+    [
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "*"
+      }
+    ]
   }
 ]
