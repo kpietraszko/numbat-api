@@ -1,0 +1,17 @@
+[
+  {
+    "id": "numbat-expression",
+    "execute-command": "numbat",
+    "pass-arguments-to-command": [
+      {
+        "source": "string",
+        "name": "-e"
+      },
+      {
+        "source": "url",
+        "name": "e"
+      }
+    ],
+    "include-command-output-in-response": true
+  }
+]
