@@ -13,14 +13,7 @@
       }
     ],
     "include-command-output-in-response": true,
-    "include-command-output-in-response-on-error": true, 
-    "response-headers":
-    [
-      {
-        "name": "Access-Control-Allow-Origin",
-        "value": "*"
-      }
-    ]
+    "include-command-output-in-response-on-error": true
   },
   {
     "id": "hello",
