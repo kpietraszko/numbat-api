@@ -15,4 +15,4 @@ RUN dpkg -i ${NUMBAT_DEB_FILE_NAME} && \
 FROM thecatlady/webhook
 COPY --from=prepare /usr/bin/numbat /usr/bin/numbat
 COPY hooks.json /config/hooks.json
-CMD ["-debug", "-verbose", "-hotreload", "-header", "Access-Control-Allow-Origin=*","-hooks=hooks.json", "-urlprefix", ""]
+CMD ["-debug", "-verbose", "-hotreload", "-header", "Access-Control-Allow-Origin=*","-hooks=hooks.json", "-urlprefix", "run"]
