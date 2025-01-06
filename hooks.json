@@ -1,6 +1,6 @@
 [
   {
-    "id": "numbat-expression",
+    "id": "numbat",
     "execute-command": "numbat",
     "pass-arguments-to-command": [
       {
