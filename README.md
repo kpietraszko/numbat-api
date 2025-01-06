@@ -8,4 +8,4 @@ GET http://localhost:9000/numbat?e=2d-1h
 ```
 responds with `1.95833 day`.
 
-Remember to URL-encode the `e` query param.
+*Remember to URL-encode the `e` query param.*
