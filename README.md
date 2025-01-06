@@ -4,7 +4,7 @@ The Docker image size is ~30 MB.
 
 For example: 
 ```
-GET http://localhost:9000/numbat?e=2d-1h
+GET http://localhost:9000/run/numbat?e=2d-1h
 ```
 responds with `1.95833 day`.
 
